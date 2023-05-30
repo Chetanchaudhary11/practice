@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600&display=swap');
+        body{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            <!-- background-image: url("../Media/window.jpg");
+            background-size: cover;
+            position: relative; -->
+            
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1170px;
+            background-color: rgba(246, 90, 202, 0.649);
+            margin: auto ;
+            background: transparent;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        ul{
+            list-style: none;
+        }
+        .footer{
+            background: rgb(227, 176, 220);
+            padding: 70px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+        }
+        .footer-col h4{
+            font-size: 18px;
+            color: black;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            position: relative;
+        }
+        .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+        .footer-col ul li:not(:last-child){
+             margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #2c2323;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover{
+            color: #5627f1;
+            padding-left: 8px;
+        }
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 30px;
+            width: 20px;
+            <!-- background-color:rgb(25, 39, 189); -->
+            margin:0 10px 10px 0;
+            text-align: center;
+            line-height: 20 px;
+            border-radius: 50;
+            <!-- color: #e24f4f; -->
+            transition: all 0.5s ease;
+            
+            
+        }
+        <!-- reponsive -->
+        @media(max-width:767px){
+            .footer-col{
+                width: 50%;
+                margin-bottom:30px;
+            }
+        }
+        @media(max-width:574px){
+            .footer-col{
+                width: 100%;
+            
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>COLLECTION</h4>
+                    <ul>
+                        <li><a href="#">Eyes</a></li>
+                        <li><a href="#">Lips</a></li>
+                        <li><a href="#">Cheeks & Glow</a></li>
+                        <li><a href="#">Complexion</a></li>
+                        <li><a href="#">Minis</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINK</h4>
+                    <ul>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">50% Plus Sale</a></li>
+                        <li><a href="#">Collabs</a></li>
+                        <li><a href="#">Free Gift</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div> <div class="footer-col">
+                    <h4> INFORMATION</h4>
+                    <ul>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Shiping</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">U.S.Store</a></li>
+                        <li><a href="#">International Store</a></li>
+                    </ul>
+                </div> <div class="footer-col">
+                    <h4> CONTACT US</h4>
+                    <div class="social-links">
+                         <a href="#"></a><i class="fab fa-facebook"></i>
+                         <a href="#"></a><i class="fab fa-twitter"></i>
+                         <a href="#"></a><i class="fab fa-instagram"></i>
+                         <a href="#"></a><i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
